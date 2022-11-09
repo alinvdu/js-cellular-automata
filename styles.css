@@ -1,0 +1,24 @@
+body {
+  background-color: #000;
+  color: #00bcd4;
+  font-family: helvetica, arial, verdana, sans-serif;
+  font-size: 14px;
+  margin: 10px;
+}
+
+canvas {
+  background: #000;
+  display: block;
+  outline: #00bcd4 solid 1px;
+  image-rendering: optimizeSpeed; /* Older versions of FF          */
+  image-rendering: -moz-crisp-edges; /* FF 6.0+                       */
+  image-rendering: -webkit-optimize-contrast; /* Safari                        */
+  image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated; /* Awesome future-browsers       */
+  -ms-interpolation-mode: nearest-neighbor; /* IE                            */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
